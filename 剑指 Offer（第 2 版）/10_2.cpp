@@ -4,6 +4,7 @@
 #include<vector>
 using namespace std;
 
+// 还是可以把空间复杂度优化到O(1)..
 class Solution {
 public:
     int numWays(int n) {
