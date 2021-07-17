@@ -10,6 +10,7 @@ struct ListNode {
     ListNode(int x) : val(x), next(NULL) {}
 };
 
+// 双指针
 class Solution {
 public:
     ListNode* getKthFromEnd(ListNode* head, int k) {
