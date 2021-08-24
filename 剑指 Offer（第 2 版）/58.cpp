@@ -28,3 +28,16 @@ public:
         return res;
     }
 };
+
+// 剑指 Offer 58 - II. 左旋转字符串
+// https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/
+
+class Solution {
+public:
+    string reverseLeftWords(string s, int n) {
+        string res = "";
+        for(int i=n; i<s.size(); ++i) res+=s[i];
+        for(int i=0; i<n; ++i) res+=s[i];
+        return res;
+    }
+};
