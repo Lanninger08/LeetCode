@@ -1,4 +1,4 @@
-// 剑指 Offer 14- I. 剪绳子
+// 剑指 Offer 14- I. 剪绳子I
 // https://leetcode-cn.com/problems/jian-sheng-zi-lcof/
 
 /**
