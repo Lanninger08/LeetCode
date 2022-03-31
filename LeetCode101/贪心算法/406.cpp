@@ -16,3 +16,5 @@ vector<vector<int>> reconstructQueue(vector<vector<int>>& people) {
     }
     return res;
 }
+
+//从 A 里挑身高最高的人 x 出来，插入到 B. 因为 B 中每个人的身高都比 x 要高，因此 x 插入的位置，就是看 x 前面应该有多少人就行了。
